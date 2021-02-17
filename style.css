@@ -1,0 +1,153 @@
+
+@font-face{
+    src: url(fonts/Addis.ttf);
+    font-family: Addis;
+}
+
+@media(min-width:500px)
+{
+  .container-1{
+   display: flex;        
+} 
+
+}
+.container-1 div{border: 1px #ccc solid; padding:5%;}
+.box-1{ flex: 1; order: 1;}
+.box-2{ flex: 1;  order: 2;}
+
+.flex01{background-color: gainsboro;}
+
+body{width: 100%;  padding: auto; padding-top: 2%; background-color: rgb(230, 220, 220);}
+p{color: black; text-align: justify;}
+
+@media(min-width: 500px) 
+{
+#mainheader{
+    background-image: url(images.jpg); height:fit-content;  background-size: cover; 
+    text-align: center; 
+    padding: 10%;
+    background-repeat: no-repeat;
+    width: auto;
+}
+#HOME{font-family: addis; color: white; font-size: 50pt; width: auto; text-align: center;}
+}
+
+nav{ text-decoration: none; text-align: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 30pt; color: white;}
+#pages ul{list-style-type: none;  word-spacing: 10pt;}
+#pages li{display: inline;}
+
+.button{
+    text-decoration: none; 
+    color: black; font-style: italic; 
+    font-size: 15pt;
+    background-size: 100%;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 1%;
+}
+.button:hover{ color: red; background-color: black;}
+
+a{
+    text-decoration: none; 
+    color: black; font-style: italic; 
+    font-size: 15pt;
+    background-size: 100%; 
+    background-color:white;
+    padding: 1%;
+}
+.intro{color: black; background-color: rgb(255, 254, 254,0.3); padding: 5%; padding-top: 1%;padding-bottom: 1%; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#story00{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story1{
+    color: black;
+    background-color: gainsboro; background-color: gainsboro; 
+    color: white;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;  text-transform: capitalize; 
+    padding: 5%; padding-top: 0%;
+}
+
+#story01{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#mainbar{width: 50%; float: left; box-sizing: border-box; background-color: brown; padding: 5%;}
+#sidebar{width: 50%; float: right; box-sizing: border-box; background-color: brown;padding: 5%;}
+
+#story2{
+    color: black;
+    background-color: rgb(182, 179, 179); background-color: gainsboro; 
+    color: white;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+
+#story02{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story3{
+    color: black;
+    background-color: rgb(182, 179, 179); background-color: gainsboro; 
+    color: white;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+
+#story03{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story4{
+    color: black;
+    background-color: rgb(182, 179, 179); background-color: gainsboro; 
+    color: white;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+
+#story04{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story5{
+    color: black;
+    background-color: rgb(182, 179, 179); background-color: gainsboro; 
+    color: white;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+
+#story05{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story6{
+    color: black;
+    background-color: rgb(182, 179, 179); background-color: gainsboro; 
+    color: white;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+
+#story06{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+
+@media (max-width: 500px) 
+{
+#mainheader{
+    /*background-image: url(antro.image.jpg);background-size: cover; */
+    text-align: center; 
+    padding: 1%;
+    /*background-repeat: no-repeat;*/
+    width: auto;
+}
+#HOME{font-family: addis; color:#000000; font-size: 30px; width: auto; text-align: center;}
+}
+
+
+
